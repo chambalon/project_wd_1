@@ -1,0 +1,77 @@
+/* 
+Author:Neha
+*/
+
+/*
+Header
+*/
+
+.navbar{
+    background-color: rgb(202, 199, 199);
+}
+
+h5{
+    color: rgb(106, 47, 6);
+}
+
+p{
+    color: rgb(36, 36, 36);
+}
+
+
+/*
+Footer
+*/
+footer{
+    background-color: rgb(150, 148, 148);
+}
+
+
+/*
+Main
+*/
+
+.carousel .carousel-item img{
+    height: 350px;
+    width: 100%;
+}
+
+
+/*
+Shop
+*/
+
+.card{
+    width: 18rem;
+}
+
+.card-img-top{
+  height: 230;
+}
+/*
+Contact us
+*/
+address{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.card-img{
+    transition: transform 2s ease-out;
+    position: relative;
+}
+
+.card-img:hover{
+    transform: scale(2,2);
+    object-fit: contain;
+    position: absolute;
+}
+.alert {
+    opacity: .2;
+    margin: 0px;
+    padding: 0px;
+  }
+.alert, p {
+    color: black;
+    opacity: .9;
+}
